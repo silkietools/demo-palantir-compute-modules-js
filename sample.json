@@ -1,0 +1,43 @@
+{
+    "other": {
+        "FOUNDRY_SERVICE_DISCOVERY_V2": "/opt/compute-service/service-discovery-v2/discovery.yml",
+        "NODE_VERSION": "20.10.0",
+        "HOSTNAME": "localhost",
+        "YARN_VERSION": "1.22.19",
+        "FOUNDRY_SERVICE_DISCOVERY": "/opt/compute-service/discovery/foundry-service-discovery",
+        "MAX_CONCURRENT_TASKS": "1",
+        "SHLVL": "2",
+        "HOME": "/",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "MODULE_AUTH_TOKEN": "/var/mgs-module-auth-conf/MODULE_AUTH_TOKEN",
+        "PWD": "/usr/src/app",
+        "CONNECTION_TO_RUNTIME": "/var/connection/info.json",
+        "NODE_ENV": "production"
+    },
+    "_PATH": {
+        "POST_RESULT_PATH": "/interactive-module/api/internal-query/results",
+        "GET_JOB_PATH": "/interactive-module/api/internal-query/job",
+        "DEFAULT_CA_PATH": "/etc/ssl/rubix-ca/ca.pem",
+        "CONNECTIONS_TO_OTHER_PODS_CA_PATH": "/etc/ssl/rubix-ca/ca.pem",
+        "POD_CERT_PEM_PATH": "/mnt/secrets/certs/cert.pem",
+        "POD_KEY_PEM_PATH": "/mnt/secrets/certs/key.pem",
+        "EXTERNAL_CONNECTIONS_CA_PATH": "/etc/ssl/rubix-ca/ca.pem"
+    },
+    "_HOST": {
+        "SERVICE_HOST": "localhost",
+        "RUNTIME_HOST": "localhost"
+    },
+    "_URI": {
+        "POST_SCHEMA_URI": "https://localhost:8945/interactive-module/api/internal-query/schemas",
+        "POST_RESULT_URI": "https://localhost:8945/interactive-module/api/internal-query/results",
+        "GET_JOB_URI": "https://localhost:8945/interactive-module/api/internal-query/job"
+    },
+    "_PORT": {
+        "SERVICE_PORT": "8945",
+        "RUNTIME_PORT": "8945"
+    },
+    "_API": {
+        "SERVICE_API": "localhost:8945",
+        "RUNTIME_API": "localhost:8945"
+    }
+}
